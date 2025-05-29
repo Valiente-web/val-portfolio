@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Search</title>
+    <link rel="stylesheet" href="cssjs/find.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <nav class="navbar">
+        <div class="site-title">TheSeasons</div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="KnowMeWell.html">Know Me!</a>
+            <a href="Flowers.html">Flourish</a>
+            <a href="Portfolio.html">Portfolio</a>
+        </div>
+    </nav>
+    <div class="split-text"></div>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search for flowers...">
+        <button onclick="searchFlowers()">Search</button>
+    </div>
+
+    <div class="results" id="resultsContainer"></div>
+
+    <footer>
+        <div class="credits">
+            <h1><span class="span2">The</span><span class="span1">Seasons</span> | © 2025 All rights reserved</h1>
+            <p>Contact me: <a href="mailto:valientejohnmark7@gmail.com" class="decor1">valientejohnmark7@gmail.com</a></p>
+            <p>Follow me on social media:</p>
+                <a href="https://web.facebook.com/GrinNinja/" target="_blank" class="decor1">Facebook</a> | 
+                <a href="https://www.instagram.com/_vallak/?hl=en" target="_blank" class="decor1">Instagram</a> 
+            <br>
+            <br>
+            <div>
+                <details id="collapse">
+                  <summary class="text1"> References</summary>
+                  <div class="collapsible-content">
+                    <div class="container">
+                        <h3>References</h3>
+                            <ol>
+                                Bloom & Wild (2024). 85 Popular Types of Flowers.<br>
+                                https://www.bloomandwild.com/the-blog/flower-types<br>
+                                <br>
+                                Bloom&Wild (2025). Floriography: Flower Meanings & Language of Flowers.<br>
+                                https://www.bloomandwild.com/the-blog/floriography-language-of-flowers-meaning<br>
+                                <br>
+                                Boeckmann C. (2025). What Does Each Flower Symbolize.<br>
+                                https://www.almanac.com/flower-meanings-language-flowers<br>
+                                <br>
+                                Brittanica (2025). Flowering Plants.<br>
+                                https://www.britannica.com/browse/Flowering-Plants<br>
+                                <br>
+                                Gardenia (2025). Plant Types & Gardening.<br>
+                                https://www.gardenia.net/plants/plant-types<br>
+                                <br>
+                                Ode Ála Rose (2025). What Flowers Are in Season? A Seasonal Flower Guide.<br>
+                                https://www.odealarose.com/blog/what-flowers-are-in-season/<br>
+                                <br>
+                            </ol>
+                    </div>
+              </div>
+        </div>
+    </footer>
+
+    <script src="cssjs/find.js"></script>
+
+</body>
+</html>

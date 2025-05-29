@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered Grid Layout</title>
+  {% load static %}
+  <link rel="stylesheet" href="cssjs/ig.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="site-title">TheSeasons</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-menu" id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="KnowMeWell.html">Know Me!</a>
+      <a href="Flowers.html">Flourish</a>
+      <a href="Portfolio.html">Portfolio</a>
+    </div>
+  </nav>
+  <div class="title">KNOW ME WELL!</div>
+  <div class="grid-container">
+    <div class="grid-item" onclick="changeImage(this)">
+      <img src="images/hobby.gif" class="collapsible-image">
+      <h2>Hobby</h2>
+      <p>Online Gaming</p>
+    </div>
+    <div class="grid-item" onclick="changeImage(this)">
+      <img src="images/flower.avif" class="collapsible-image">
+      <h2>Flower</h2>
+      <p>Marigold</p>
+    </div>
+    <div class="grid-item" onclick="changeImage(this)">
+      <img src="images/color1.gif" class="collapsible-image">
+      <h2>Color</h2>
+      <p id="image">Green</p>
+    </div>
+    <div class="grid-item" onclick="changeImage(this)">
+      <img src="images/season.gif" class="collapsible-image">
+      <h2>Season</h2>
+      <p id="image">Fall</p>
+    </div>
+    <div class="grid-item" onclick="changeImage(this)">
+      <img src="images/char.webp" class="collapsible-image">
+      <h2>Character</h2>
+      <p id="image">Taki Tachibana</p>
+    </div>
+    <div class="grid-item" onclick="changeImage(this)">
+      <img src="images/dessert1.gif" class="collapsible-image">
+      <h2>Dessert</h2>
+      <p id="image">Chocolates</p>
+    </div>
+    <div class="grid-item" onclick="changeImage(this)">
+      <img src="images/food.jpg" class="collapsible-image">
+      <h2>Food</h2>
+      <p id="image">Sinigang</p>
+    </div>
+    <div class="grid-item" onclick="changeImage(this)">
+      <img src="images/place1.gif" class="collapsible-image">
+      <h2>Place</h2>
+      <p id="image">Tokyo</p>
+    </div>
+    <div class="grid-item" onclick="changeImage(this)">
+      <img src="images/time.jpg" class="collapsible-image">
+      <h2>Time of the Day</h2>
+      <p id="image">12:00 p.m</p>
+    </div>
+  </div>
+<br>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <div class="credits">
+        <h1><span class="span2">The</span><span class="span1">Seasons</span> | © 2025 All rights reserved</h1>
+        <p>Contact me: <a href="mailto:valientejohnmark7@gmail.com" class="decor1">valientejohnmark7@gmail.com</a></p>
+        <p>Follow me on social media:</p>
+            <a href="https://web.facebook.com/GrinNinja/" target="_blank" class="decor1">Facebook</a> | 
+            <a href="https://www.instagram.com/_vallak/?hl=en" target="_blank" class="decor1">Instagram</a> 
+            <br>
+            <br>
+        <div>
+          <details id="collapse">
+            <summary class="text1"> References</summary>
+            <div class="collapsible-content">
+              <div class="container">
+                <h3>Image References</h3>
+                <ol>
+                  https://media4.giphy.com/avatars/kendallaking/qYZoVGDtfIKh.GIF<br>
+                  <br>
+                  https://images.prismic.io/floraqueen-blog/ZtnlJbzzk9ZrXD9K_shutterstock_392746756.jpg?w=1000&h=600&fit=crop&auto=format,compress<br>
+                  <br>
+                  https://i.pinimg.com/originals/46/6e/57/466e570ed4330ab18725400b27b1a2e6.gif<br>
+                  <br>
+                  https://i.redd.it/lgapmvqfopyb1.gif<br>
+                  <br>
+                  https://static.wikia.nocookie.net/kiminonawa/images/a/a8/Taki_Tachibana_2016.png/revision/latest?cb=20240307223508<br>
+                  <br>
+                  https://64.media.tumblr.com/435f793f0b42cb41046ca8fdd49b10ce/tumblr_mob9taGuhv1svy310o1_1280.jpg<br>
+                  <br>
+                  https://i.pinimg.com/originals/2c/70/d5/2c70d506868cd225b537dd9b2a09602b.gif<br>
+                  <br>
+                  https://designmadeinjapan.com/wp-content/uploads/2015/07/Train-Japan.gif<br>
+                  <br>
+                  https://c8.alamy.com/comp/2BMN43B/wall-clock-isolated-on-white-background-almost-12-pm-or-12-am-2BMN43B.jpg<br>
+                  <br>
+                </ol>
+              </div>
+        </div>
+    </div>
+  </footer>
+  <script src="cssjs/ig.js"></script>
+</body>
+</html>
